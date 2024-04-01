@@ -1,0 +1,193 @@
+.textDesign, h6, h4, h1 {
+  color: white !important;
+  font-family: "Open Sans";
+  font-weight: bolder !important;
+}
+
+.textDesign2nd, #portfolio .row .box h6, #portfolio .row .box h5, button {
+  font-family: "Open Sans";
+  font-weight: bolder !important;
+}
+
+div {
+  border-radius: 10px;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 0.9rem;
+  color: white !important;
+  padding: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2, h3, h5, .fa-brands, .fa-solid, .fas {
+  color: white !important;
+  padding: 10px;
+}
+
+button {
+  color: #f74e3b !important;
+}
+
+.competitionAwards {
+  margin: 10px 0 !important;
+}
+
+.year {
+  border: 2px solid #ffd33f !important;
+  color: #ffd33f !important;
+  text-align: center;
+  border-radius: 5px;
+  max-width: 60px;
+}
+
+.sectionTitle {
+  background-color: #f74e3b !important;
+  height: 240px;
+}
+.sectionTitle h1 {
+  padding: 8%;
+}
+
+.headingIcon {
+  color: #f74e3b !important;
+}
+
+.nav-item, section {
+  margin: 40px;
+}
+
+#skills .row div {
+  background-color: #f74e3b !important;
+}
+#skills .row div i {
+  color: #ffd33f !important;
+}
+
+.box {
+  margin: 20px;
+  padding: 20px 30px;
+}
+
+#portfolio .row .box {
+  background-color: #f74e3b !important;
+}
+#portfolio .row .box h6, #portfolio .row .box h5 {
+  color: #ffd33f !important;
+}
+#portfolio .row .box .portfolioImages {
+  border: 5px solid white !important;
+  height: 350px;
+  width: 350px;
+}
+
+.iconPortfolio {
+  border: 2px solid white !important;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.badge {
+  margin: 5px;
+  background-color: #ffd33f !important;
+  color: #f74e3b !important;
+}
+
+.certificate, .webproject, .uiuxProjects, .vectorArt, .dataAnalytics {
+  text-align: left;
+}
+.certificate tr td, .webproject tr td, .uiuxProjects tr td, .vectorArt tr td, .dataAnalytics tr td {
+  padding: 30px 0;
+}
+.certificate tr .date, .webproject tr .date, .uiuxProjects tr .date, .vectorArt tr .date, .dataAnalytics tr .date {
+  color: #f74e3b !important;
+  font-family: "Anton";
+  padding-left: 10px;
+}
+.certificate tr .fa-play, .webproject tr .fa-play, .uiuxProjects tr .fa-play, .vectorArt tr .fa-play, .dataAnalytics tr .fa-play {
+  color: #f74e3b !important;
+}
+
+.logo {
+  height: 45px;
+  width: 45px;
+}
+
+.trainingEvents {
+  padding: 0 350px;
+}
+.trainingEvents div {
+  background-color: #f74e3b !important;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: white !important;
+}
+
+.reviews .card {
+  margin: 5px;
+  padding: 10px;
+  background-color: #f74e3b !important;
+  border: 1px solid white !important;
+}
+
+footer, .contacts {
+  background-color: #f74e3b !important;
+}
+
+.contacts {
+  margin: 10px;
+}
+.contacts div {
+  padding: 25px 10px;
+}
+.contacts div .fa-brands {
+  font-size: 4rem;
+}
+
+@media (max-width: 1000px) {
+  section div {
+    padding: 0 50px;
+  }
+  .trainingEvents {
+    padding: 0;
+  }
+  .aboutMeRow {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+}
+footer .row div p {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 800px) {
+  .reviews {
+    padding: 60px;
+  }
+  .competitionAwards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .competitionAwards .comp-box {
+    margin: 20px;
+  }
+  .competitionAwards .comp-box h6 {
+    max-width: 100vh;
+    display: block;
+  }
+  .contacts .row h1 {
+    font-size: 16px;
+  }
+  .contacts .row .fa-brands {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

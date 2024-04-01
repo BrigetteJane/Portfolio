@@ -1,0 +1,262 @@
+$minMargin:40px;
+$padding:30px;
+$colorForAll:#f74e3b !important;
+$colorWhite:white !important;
+$colorYellow: #ffd33f !important;
+
+
+
+.textDesign{
+  color:white !important;
+  font-family:'Open Sans';
+  font-weight:bolder !important;
+}
+
+.textDesign2nd{
+  font-family:'Open Sans';
+  font-weight:bolder !important;
+}
+
+div{
+  border-radius: 10px;
+}
+
+p{
+  font-family: 'Open Sans';
+  font-size: 0.9rem;
+  color: $colorWhite;
+  padding:5px;
+ }
+
+ h1{
+  @extend .textDesign;
+  font-size:2rem;
+ }
+
+ h4{
+  @extend .textDesign;
+}
+
+h6{
+  @extend .textDesign;
+}
+ h2, h3, h5, .fa-brands, .fa-solid, .fas{
+  color:$colorWhite;
+  padding:10px;
+}
+
+button{
+    @extend .textDesign2nd;
+    color:$colorForAll;
+}
+
+.competitionAwards{
+  margin:10px 0 !important;
+}
+
+
+.year{
+border:2px solid $colorYellow;
+color: $colorYellow;
+text-align: center;
+border-radius: 5px;
+max-width:60px;
+}
+
+
+.sectionTitle{
+background-color:$colorForAll;
+height:240px;
+h1{
+  padding: 8%;
+}
+}
+.headingIcon{
+  color: $colorForAll;
+}
+
+.nav-item, section{
+margin:$minMargin;
+}
+
+
+#skills{
+  .row{
+    div{
+      background-color: $colorForAll;
+      i{
+       color:$colorYellow;
+      }
+    }
+  }
+}
+
+
+.box{
+    margin:20px;
+    padding:20px 30px;
+   }
+
+
+
+
+#portfolio{
+  .row{
+    .box{
+      background-color: $colorForAll;
+      
+      h6, h5{
+        @extend .textDesign2nd;
+        color:$colorYellow;
+      }
+
+      .portfolioImages{
+        border:5px solid $colorWhite;
+        height:350px;
+        width:350px;
+      }
+    }
+    
+  }
+}
+
+.iconPortfolio{
+  border:2px solid $colorWhite;
+  padding: 10px;
+  margin-left:30px;
+}
+
+.badge{
+margin: 5px;
+background-color:$colorYellow;
+color:$colorForAll;
+}
+
+
+.certificate, .webproject,.uiuxProjects,.vectorArt, .dataAnalytics{
+  text-align:left;
+  tr{
+    td{
+      padding:30px 0;
+    }
+    .date{
+      color:$colorForAll;
+      font-family: 'Anton';
+      padding-left:10px;
+    }
+    .fa-play{
+      color:$colorForAll;
+    }
+  }
+}
+
+.logo{
+height:45px;
+width:45px;
+}
+
+
+.trainingEvents{
+  padding:0 350px;
+ div{
+  background-color:$colorForAll;
+  padding: 10px;
+  font-size: 0.9rem;
+  color:$colorWhite;
+ }
+}
+
+
+
+
+.reviews{
+  .card{
+    margin:5px;
+    padding:10px;
+    background-color: $colorForAll;
+    border: 1px solid $colorWhite;
+  }
+
+}
+
+footer, .contacts{
+  background-color: $colorForAll;
+}
+
+.contacts{
+  margin:10px;
+  div{ 
+    padding:25px 10px;
+    .fa-brands{
+      font-size: 4rem;
+    }
+  }
+}
+
+
+@media (max-width:1000px) {
+  section{
+    div{
+      padding:0 50px;
+    }
+  }
+
+  .trainingEvents{
+    padding:0;
+  }
+
+  .aboutMeRow{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .logo{
+    height:30px;
+    width:30px;
+    }
+  
+}
+
+footer{
+  .row{
+    div{
+      p{
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+@media (max-width:800px) {
+  .reviews{
+   padding:60px;
+  }
+
+  .competitionAwards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .comp-box{
+      margin: 20px;
+
+      h6{
+        max-width:100vh;
+        display: block;
+      }
+      }
+
+    }
+    
+    .contacts{
+    .row{
+      h1{
+       font-size:16px; 
+      }
+      .fa-brands{
+      font-size:2rem;
+    }
+    }
+  }
+
+  
+}
